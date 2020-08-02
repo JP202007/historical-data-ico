@@ -8,9 +8,12 @@ from bs4 import BeautifulSoup as soup
 NAME=['contentos','bqt','ocean-protocol','fetch','pdata','tokoin','cryptyk','uranus','gowithmi','coti','boosto','bittorrent',
       'allive','trias','haratoken','resistance','iov-blockchain','vanta-network','lto-network','magnachain','webloc-protocol',
       'd-community','fysical','dos-network','metabase']
+NAME=['avalanche','orion-protocol','dmm-governance','waykichain-governance-coin','finnexus','celo','2key-network','uma','solana',
+      'elixxir','kleros','betprotocol','kadena','emx','gods-unchained','nervos-network']
+NAME=['bitcoin']
 
 for name in NAME:
-    url = 'https://coinmarketcap.com/currencies/' + name + '/historical-data/?start=20190101&end=20200401'
+    url = 'https://coinmarketcap.com/currencies/' + name + '/historical-data/?start=20190101&end=20200801'
     headers = {
         'User-Agent': 'Mozilla / 5.0(Macintosh;Intel Mac OS X10_15_4) AppleWebKit '
                       '/ 537.36(KHTML, like Gecko) Chrome / 81.0.4044.138 Safari / 537.36',
